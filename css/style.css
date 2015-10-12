@@ -30,9 +30,9 @@ body, html {
 	padding:0;
 	margin:0;
 }
-.section-A {
-	background:white;
-	height:4em;
+.section-E {
+	background:#eff0f2;
+	height:44em;
 }
 .section-B {
 	background:#eff0f2;
@@ -45,7 +45,7 @@ body, html {
 }
 .section-D {
 	background:white;
-	height:22em;
+	height:32em;
 }
 .macbook {
 }
@@ -72,7 +72,10 @@ body, html {
 	line-height: 1.6em;
 	color:#969696;
 }
-
+.features {
+	width:70%;
+	margin: 0 auto;
+}
 
 
 
