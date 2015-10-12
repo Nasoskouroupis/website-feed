@@ -1,18 +1,51 @@
+/* Global // --------------------------------*/
+
+html {
+  letter-spacing: 0.0125em;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    line-height: 1.3em;
+    transition: all 0.3s ease 0s;
+}
 .section-A,.section-B,.section C {
 	width:100%;
-	position: relative;
+	padding:0;
+	margin:0;
 }
 .section-A {
 	background:white;
+	height:6em;
 }
-
-.section-B,.section-D {
+.section-B {
 	background:#f1ecec;
+	height:44em;
+	z-index:1;
+	position:relative;
 }
 .section-C {
 	background:#262626;
+	height:22em;
 }
+.section-D {
+	background:white;
+	height:22em;
+}
+.macbook {
+	z-index:2;
+}
+.macbook img {
+	width:800px;
+	height:100%;
 
+}
 
 .input {
 	position: relative;
