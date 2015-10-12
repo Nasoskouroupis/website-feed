@@ -27,11 +27,9 @@ body, html {
 .section-B {
 	background:#f1ecec;
 	height:44em;
-	z-index:1;
-	position:relative;
 }
 .section-C {
-	background:#262626;
+	background:#1c1b1b;
 	height:22em;
 }
 .section-D {
@@ -39,14 +37,15 @@ body, html {
 	height:22em;
 }
 .macbook {
-	z-index:2;
 }
 .macbook img {
 	width:800px;
 	height:100%;
-
 }
-
+.graphic {
+	background:#262626;
+	height:44em;
+}
 .input {
 	position: relative;
 	z-index: 1;
