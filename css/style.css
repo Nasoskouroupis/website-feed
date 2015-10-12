@@ -1,3 +1,19 @@
+.section-A,.section-B,.section C {
+	width:100%;
+	position: relative;
+}
+.section-A {
+	background:white;
+}
+
+.section-B,.section-D {
+	background:#f1ecec;
+}
+.section-C {
+	background:#262626;
+}
+
+
 .input {
 	position: relative;
 	z-index: 1;
