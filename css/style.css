@@ -57,6 +57,13 @@ body, html {
 	background:#262626;
 	height:44em;
 }
+.column-1, .column-2,.column-3 {
+	height:18em;
+	background:#f1ecec;
+	margin-top:4em;
+}
+
+
 .input {
 	position: relative;
 	z-index: 1;
