@@ -21,6 +21,7 @@ body, html {
 	width:100%;
   margin: 0 auto;
   max-width: 1320px;
+  position: absolute;
   margin:0 auto;
 }
 .nav {
@@ -30,6 +31,7 @@ body, html {
 .nav li {
 	text-align: center;
 }
+
 .graphic {
 	text-align: center;
   position: absolute;
@@ -77,6 +79,7 @@ body, html {
 	padding-bottom: 1.2em;
 	text-align: center;
 }
+
 .bg-class-1 {
   background: rgba(103,191,235,1);
 	background: -moz-linear-gradient(left, rgba(103,191,235,1) 0%, rgba(88,177,221,1) 100%);
@@ -132,14 +135,6 @@ body, html {
 .section-D {
 	background:white;
   height:52em;
-  position:relative;
-}
-.features {
-	width:70%;
-	margin: 0 auto;
-	height:52em;
-  background:white;
-  clear: both;
 }
 
 .column-1, .column-2,.column-3,.column-4 {
@@ -192,7 +187,13 @@ body, html {
 	padding-bottom: 1.2em;
 	text-align: center;
 }
-
+.features {
+	width:80%;
+	margin: 0 auto;
+	height:52em;
+  background:white;
+  position: relative;
+}
 .features h5 {
 	font-weight: 700;
 	font-size: 1.2em;
