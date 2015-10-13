@@ -16,8 +16,8 @@ body, html {
     line-height: 1.3em;
     transition: all 0.3s ease 0s;
 }
-.container {
-	width:100%;
+.container-fixed {
+	width:90%;
   margin: 0 auto;
   max-width: 1320px;
   margin:0 auto;
@@ -50,7 +50,6 @@ body, html {
   position:relative;
   margin: 0 auto;
 }
-
 .content {
 	padding-left:3em;
 	padding-top:3em;
@@ -137,6 +136,14 @@ body, html {
   overflow:hidden;
   padding:0!important;
 }
+.section-problem {
+  width:100%;
+  background:#f4f4f4;
+}
+.section-solution {
+  width:100%;
+  background:white;
+}
 .graphic {
 	text-align: center;
 	padding-top:2em;
@@ -146,30 +153,38 @@ body, html {
   height:52em;
   position:relative;
 }
-.features {
-	width:78%;
+.problem {
+	width:60%;
 	margin: 0 auto;
-	height:52em;
-  background:white;
+	height:22em;
   clear: both;
+  position: relative;
+}
+.solution {
+	width:60%;
+	margin: 0 auto;
+	height:22em;
+  clear: both;
+  position: relative;
 }
 
 .column-1, .column-2,.column-3,.column-4 {
-	height:18em;
-	margin-top:8em;
+	height:8em;
+	margin-top:1.5em;
 	animation-delay: .8s;
 }
 .column-3,.column-4 {
 	margin-top:.2em;
 }
 .feature-title {
-	margin-top:9em;
+	margin-top:4em;
+  text-align: center;
 }
 .feature-title h2 {
-	font-weight: 700;
+	font-weight: 300;
 }
 .vertical-divider {
-	border:solid 3px #5fb7e3;
+	border:solid 3px #7cca28;
 	border-radius: 2px;
 	width:90px;
 }
@@ -308,7 +323,7 @@ body, html {
 .slide {
   background: #dadada;
   width: 100%;
-  height: 400px;
+  height: 42em;
 }
 
 .nav li {
@@ -321,7 +336,7 @@ font-size: 2em;
   font-size: 50px;
   font-weight: bold;
   text-align: left;
-  padding-left: 4em;
+  margin-left: 4em;
   opacity: 0;
   text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
   position: absolute;
