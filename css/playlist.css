@@ -7,7 +7,7 @@
   background-color:#28343e;
   overflow:hidden;
   transition: all 0.1s ease 0s;
-  margin-bottom: 2.4em;
+  xmargin-bottom: 2.4em;
   transition: all 0.1s ease 0s;
   z-index: 60;
   width:19em;
@@ -27,14 +27,14 @@
   }
 
 .playlist-medium,.playlist-medium-2,.playlist-medium-3,.playlist-medium-4 {
-  margin-top:3em;
+  xmargin-top:3em;
 }
 
 .playlist-modal {
   margin-top:4em;
   height:22em;
   width:17em;
-  margin-bottom: 2.4em;
+  xmargin-bottom: 2.4em;
   position: relative;
 }
 
@@ -81,7 +81,6 @@ height:40px;
 border-radius: 4px;
 position: absolute;
 }
-
 
 .playlist img{
   height:140%;

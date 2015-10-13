@@ -11,22 +11,56 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
-  .features {
+  .content {
+    padding-left:1em;
+    padding-top:1em;
     width:90%;
-    height:74em;
   }
   .macbook img {
-  	width:80%;
-  	height:80%;
-  	bottom:18em;
+    width:80%;
+    height:80%;
+    bottom:8em;
+  }
+  .column-1, .column-2,.column-3,.column-4 {
+    height:12em;
+    margin-top:4em;
+  }
+  .section-B {
+    height:34em;
+  }
+  .features {
+    width:90%;
+    margin: 0 auto;
+    height:82em;
+  }
+  .learning-fixed {
+    width:100%;
+    margin:0 auto;
+  }
+  .playlist-section {
+    width:100%;
+    margin: 0 auto;
+    height:63em;
+    text-align: center;
+    background:#eff0f2;
+  }
+  .slider {
+    transform: scale(0.7,0.7);
+  }
+  .section-F {
+  	background:#1c1b1b;
+  	height:6em;
+  	z-index: 10;
+    position:relative;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-  .features {
-    width:97%;
-    height:74em;
+  .content {
+    padding-left:3em;
+    padding-top:3em;
+    width:50%;
   }
   .macbook img {
     width:80%;
@@ -61,6 +95,7 @@
   	background:#eff0f2;
   }
   .slider {
+    transform: scale(1,1);
   }
 }
 
@@ -93,9 +128,10 @@
   	margin:0 auto;
   }
   .playlist-section {
+    padding-top:1em;
   	width:100%;
   	margin: 0 auto;
-  	height:39em;
+  	height:37em;
   	text-align: center;
   	background:#eff0f2;
   }
@@ -106,14 +142,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px){
-  .features {
-    width:97%;
-    height:74em;
-  }
   .macbook img {
     width:60%;
     height:60%;
-    bottom:18em;
+    bottom:11em;
   }
   .column-1, .column-2,.column-3,.column-4 {
     height:18em;
@@ -129,7 +161,7 @@
   .features {
   	width:80%;
   	margin: 0 auto;
-  	height:47em;
+  	height:52em;
   }
   .learning-fixed {
   	width:80%;
@@ -141,5 +173,47 @@
   	height:39em;
   	text-align: center;
   	background:#eff0f2;
+  }
+  .slider {
+    transform: scale(1,1);
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1420px){
+  .macbook img {
+    width:60%;
+    height:60%;
+    bottom:22em;
+  }
+  .column-1, .column-2,.column-3,.column-4 {
+    height:16em;
+    animation-delay: .8s;
+  }
+  .section-B {
+    height:55em;
+    margin-bottom:3em;
+  }
+  .features {
+  	width:70%;
+  	margin: 0 auto;
+  	height:52em;
+  }
+  .learning-fixed {
+  	width:60%;
+  	margin:0 auto;
+  }
+  .playlist-section {
+  	width:100%;
+  	margin: 0 auto;
+  	height:39em;
+  	text-align: center;
+  	background:#eff0f2;
+  }
+  .slider {
+    transform: scale(1,1);
+  }
+  .more-title h2 {
+    margin-bottom:1em;
   }
 }
