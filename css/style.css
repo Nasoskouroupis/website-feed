@@ -35,7 +35,6 @@ body, html {
   position: absolute;
 }
 .macbook {
-	z-index: 200;
 	animation-delay: .6s;
 }
 .macbook img {
@@ -110,6 +109,20 @@ body, html {
   position:relative;
 }
 
+.contact-section {
+  height:30em;
+  margin: 0 auto;
+  width:100%;
+  background:#d9d7cb;
+  position: relative;
+}
+.contact-content {
+  margin:0 auto;
+  width:60%;
+  text-align: center;
+  padding-top:6em;
+}
+
 .section-A {
 	background:white;
 	height:8em;
@@ -177,8 +190,9 @@ body, html {
 	text-transform: uppercase;
 }
 .cta {
-	xmargin: 0 auto;
+	margin: 0 auto;
 	padding:1em;
+  margin-top:3em;
 	background: white;
 	color:gray;
 	width:40%;
@@ -235,6 +249,7 @@ body, html {
 	text-align: center;
 	color:#cfcfcf;
 	padding-top:1.3em;
+  line-height: 1.5em;
 }
 .playlist-style {
 	animation-delay: .5s;
