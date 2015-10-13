@@ -82,16 +82,7 @@ border-radius: 4px;
 position: absolute;
 }
 
-.playlist:hover, .playlist-home:hover, .playlist-home-2:hover, .playlist-home-3:hover, .playlist-home-4:hover,.playlist-home-5:hover,.playlist-home-6:hover,.playlist-home-7:hover,.playlist-home-8:hover    {
-  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.6);
-  margin: 0 auto;
-  left:50%;
-  margin-left:-9em;
-  transform: scale(1.07,1.07);
-}
-.playlist-home:hover, .playlist-home-2:hover, .playlist-home-3:hover, .playlist-home-4:hover,.playlist-home-5:hover,.playlist-home-6:hover,.playlist-home-7:hover,.playlist-home-8:hover   {
-  transform: scale(1.07,1.07);
-}
+
 .playlist img{
   height:140%;
   width:140%;

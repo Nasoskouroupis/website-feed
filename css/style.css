@@ -103,7 +103,7 @@ body, html {
 .content {
 	padding-left:3em;
 	padding-top:3em;
-	width:40%;
+	width:50%;
 	color:white;
 	margin: 0 auto;
 }
@@ -151,13 +151,13 @@ body, html {
 	padding-bottom: 2em;
 }
 .learning-fixed {
-	width:70%;
+	width:80%;
 	margin:0 auto;
 }
 .playlist-section {
 	width:100%;
 	margin: 0 auto;
-	height:32em;
+	height:39em;
 	text-align: center;
 	background:#eff0f2;
 }
@@ -166,12 +166,13 @@ body, html {
 }
 .section-G {
 	background:#eff0f2;
-	height:5em;
+	height:6em;
 	z-index: 200;
 }
 .more-title h2 {
 	text-align: center;
 	font-size: 1.3em;
+  margin-bottom:3em;
 }
 .copyright {
 	text-align: center;
@@ -182,7 +183,10 @@ body, html {
 	animation-delay: .5s;
 	transition: all 0.5s ease 0s;
 }
-
+.4thsubject {
+  padding-right:70px!imporant;
+  padding-left:70px!imporant;
+}
 /* Forms // --------------------------------*/
 
 .input {

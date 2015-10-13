@@ -1,0 +1,108 @@
+
+@media(max-width:767px){
+  .features {
+    width:97%;
+    margin: 0 auto;
+    height:74em;
+  }
+  .column-1, .column-2,.column-3,.column-4 {
+  	height:12em;
+  	margin-top:2em;
+  	animation-delay: .8s;
+  }
+  .column-4 {
+    margin-bottom:4em;
+  }
+  .slider {
+    transform: scale(.8,.8);
+  }
+  .learning-fixed {
+  	width:94%;
+  	margin:0 auto;
+  }
+  .4thsubject {
+    padding-left: 50px;
+    padding-right: 0px;
+  }
+  .playlist-section {
+  	width:100%;
+  	margin: 0 auto;
+  	height:52em;
+  	text-align: center;
+  	background:#eff0f2;
+  }
+  .section-G {
+  	background:#eff0f2;
+  	height:5em;
+  	z-index: 200;
+  }
+  .content {
+  	padding-left:2em;
+  	padding-top:2em;
+  	width:80%;
+  	color:white;
+  	margin: 0 auto;
+  }
+  .macbook img {
+  	width:500px;
+  	height:100%;
+  	position: relative;
+  	bottom:4em;
+  }
+  .section-B {
+    height:43em;
+  }
+  .slider {
+    padding-top:2em;
+  }
+}
+@media(max-width:768px){
+  .content {
+    width:80%;
+    color:white;
+    margin: 0 auto;
+  }
+  .macbook img {
+    width:740px;
+    height:100%;
+    position: relative;
+    bottom:5em;
+  }
+  .slider {
+    transform: scale(1,1);
+  }
+  .learning-fixed {
+  	width:66%;
+  	margin:0 auto;
+  }
+  .features {
+    width:95%;
+    margin: 0 auto;
+    height:56em;
+  }
+  .column-1, .column-2,.column-3,.column-4 {
+  	height:16em;
+  	xbackground:#eff0f2;
+  	margin-top:4em;
+  	animation-delay: .8s;
+  }
+  .column-3,.column-4 {
+  	margin-top:2em;
+  }
+  .feature-title {
+  	margin-top:12em;
+  }
+  .playlist-section {
+    width:100%;
+    margin: 0 auto;
+    height:63em;
+    text-align: center;
+    background:#eff0f2;
+  }
+}
+@media(min-width:992px){
+  .slider {
+    transform: scale(1,1);
+  }
+}
+@media(min-width:1200px){}
