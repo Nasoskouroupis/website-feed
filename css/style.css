@@ -29,7 +29,6 @@ body, html {
 	width:100%;
 	padding:0;
 	margin:0;
-	height:8em;
 }
 .section-E {
 	background:#eff0f2;
@@ -49,7 +48,6 @@ body, html {
 }
 .section-C {
 	xbackground:#1c1b1b;
-	height:32em;
 	animation-delay: .5s;
 	background:#eff0f2;
 	z-index: 10;
@@ -71,10 +69,10 @@ body, html {
 	animation-delay: .6s;
 }
 .macbook img {
-	width:800px;
-	height:100%;
+	width:60%;
+	height:60%;
 	position: relative;
-	bottom:14em;
+	bottom:18em;
 }
 .bgimage img {
 	width:80%;
@@ -186,6 +184,9 @@ body, html {
 .4thsubject {
   padding-right:70px!imporant;
   padding-left:70px!imporant;
+}
+.slider {
+  transform: scale (1,1);
 }
 /* Forms // --------------------------------*/
 
