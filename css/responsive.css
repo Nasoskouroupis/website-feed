@@ -11,209 +11,296 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
-  .content {
-    padding-left:1em;
-    padding-top:1em;
+  .problem {
+  	width:70%;
+  	height:34em;
+  }
+  .product {
+    height:38em;
     width:90%;
   }
-  .macbook img {
-    width:80%;
-    height:80%;
-    bottom:8em;
-  }
-  .column-1, .column-2,.column-3,.column-4 {
-    height:12em;
+  .solution {
+    width:90%;
+    height:32em;
+    padding-left:2em;
+    padding-right:2em;
     margin-top:4em;
   }
-  .section-B {
-    height:34em;
-  }
-  .features {
+  .cta-content {
     width:90%;
-    margin: 0 auto;
-    height:82em;
+    padding-top:4em;
   }
-  .learning-fixed {
-    width:100%;
-    margin:0 auto;
+  .bulletoffer {
+    width:90%;
+    height:28em;
   }
-  .playlist-section {
-    width:100%;
-    margin: 0 auto;
-    height:63em;
-    text-align: center;
-    background:#eff0f2;
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 1.43em;
+    line-height: 1.3em;
+    opacity: 0;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    padding-top: 2.3em;
+    top: 0;
+    color:white;
   }
-  .slider {
-    transform: scale(0.7,0.7);
-  }
-  .section-F {
-  	background:#1c1b1b;
-  	height:6em;
-  	z-index: 10;
-    position:relative;
+  .text {
+    max-width: 340px;
+    padding-top: 20em;
+    margin-left:4.2em;
+    font-size:1.3em;
+    line-height: 1.6em;
+    text-align: left;
+    opacity: 0;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    color:white;
   }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-  .content {
-    padding-left:3em;
-    padding-top:3em;
-    width:50%;
+  .container-fixed {
+    width:95%;
   }
-  .macbook img {
-    width:80%;
-    height:80%;
-    bottom:8em;
+  .cta-content {
+    width:60%;
+    padding-top:4em;
   }
-  .column-1, .column-2,.column-3,.column-4 {
-  	height:18em;
-  	margin-top:4em;
-  	animation-delay: .8s;
+  .problem {
+    width:60%;
+    height:26em;
   }
-  .column-3,.column-4 {
-  	margin-top:0em;
+  .solution {
+    width:70%;
+    height:32em;
+    padding-left:2em;
+    padding-right:2em;
+    margin-top:4em;
   }
   .section-B {
-  	height:52em;
+    height:42em;
   }
-  .features {
-  	width:90%;
-  	margin: 0 auto;
-  	height:56em;
+  .column-1 {
+    margin-top:2em;
+    height:6em;
   }
-  .learning-fixed {
-  	width:60%;
-  	margin:0 auto;
+  .product {
+    height:44em;
+    width:70%;
   }
-  .playlist-section {
-  	width:100%;
-  	margin: 0 auto;
-  	height:63em;
-  	text-align: center;
-  	background:#eff0f2;
+  .bulletoffer {
+    width:80%;
+    height:18em;
   }
-  .slider {
-    transform: scale(1,1);
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 4em;
+    opacity: 0;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    padding-top: 2.3em;
+    top: 0;
+    color:white;
+  }
+  .text {
+    max-width: 540px;
+    padding-top: 14em;
+    margin-left: 11.4em;
+    font-size:1.3em;
+    line-height: 1.6em;
+    text-align: left;
+    opacity: 0;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    color:white;
   }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px){
-  .macbook img {
-    width:80%;
-    height:80%;
-    bottom:14em;
+  .container-fixed {
+    width:95%;
   }
-  .column-1, .column-2,.column-3,.column-4 {
-  	height:18em;
-  	margin-top:8em;
-    margin-bottom:2em;
-  	animation-delay: .8s;
+  .cta-content {
+    width:60%;
+    padding-top:4em;
   }
-  .column-3,.column-4 {
-  	margin-top:.2em;
+  .problem {
+    width:60%;
+    height:26em;
+  }
+  .solution {
+    width:70%;
+    height:32em;
+    padding-left:2em;
+    padding-right:2em;
+    margin-top:4em;
   }
   .section-B {
-    height:52em;
+    height:42em;
   }
-  .features {
-  	width:90%;
-  	margin: 0 auto;
-  	height:52em;
+  .column-1 {
+    margin-top:2em;
+    height:6em;
   }
-  .learning-fixed {
-  	width:100%;
-  	margin:0 auto;
+  .product {
+    height:44em;
+    width:70%;
   }
-  .playlist-section {
-    padding-top:1em;
-  	width:100%;
-  	margin: 0 auto;
-  	height:37em;
-  	text-align: center;
-  	background:#eff0f2;
+  .bulletoffer {
+  	width:80%;
+    height:18em;
   }
-  .slider {
-    transform: scale(0.8,0.8);
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 4em;
+    opacity: 0;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    padding-top: 2.3em;
+    top: 0;
+    color:white;
+  }
+  .text {
+    max-width: 540px;
+    padding-top: 14em;
+    margin-left: 11.4em;
+    font-size:1.3em;
+    line-height: 1.6em;
+    text-align: left;
+    opacity: 0;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    color:white;
   }
 }
+
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px){
-  .macbook img {
+  .container-fixed {
+    width:96%;
+  }
+  .cta-content {
     width:60%;
-    height:60%;
-    bottom:11em;
+    padding-top:4em;
   }
-  .column-1, .column-2,.column-3,.column-4 {
-    height:18em;
-    margin-top:8em;
-    animation-delay: .8s;
+  .solution {
+    width:70%;
+    height:32em;
+    padding-left:2em;
+    padding-right:2em;
+    margin-top:4em;
   }
-  .column-3,.column-4 {
-    margin-top:.2em;
+  .problem {
+    width:60%;
+    height:26em;
   }
   .section-B {
-    height:52em;
+    height:40em;
   }
-  .features {
-  	width:80%;
-  	margin: 0 auto;
-  	height:52em;
+  .column-1 {
+    margin-top:2em;
+    height:6em;
   }
-  .learning-fixed {
-  	width:80%;
-  	margin:0 auto;
+  .product {
+    height:48em;
+    width:60%;
   }
-  .playlist-section {
-  	width:100%;
-  	margin: 0 auto;
-  	height:39em;
-  	text-align: center;
-  	background:#eff0f2;
+  .bulletoffer {
+  	width:70%;
+    height:18em;
   }
-  .slider {
-    transform: scale(1,1);
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 4em;
+    opacity: 0;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    padding-top: 2.3em;
+    top: 0;
+    color:white;
+  }
+  .text {
+    max-width: 540px;
+    padding-top: 14em;
+    margin-left: 11.4em;
+    font-size:1.3em;
+    line-height: 1.6em;
+    text-align: left;
+    opacity: 0;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    color:white;
   }
 }
-
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1420px){
-  .macbook img {
-    width:60%;
-    height:60%;
-    bottom:22em;
+  .container-fixed {
+  	width:95%;
   }
-  .column-1, .column-2,.column-3,.column-4 {
-    height:16em;
-    animation-delay: .8s;
+  .solution {
+  	width:70%;
+  	height:32em;
+    padding-left:2em;
+    padding-right:2em;
+    margin-top:4em;
+  }
+  .cta-content {
+    width:60%;
+    padding-top:4em;
+  }
+  .problem {
+  	width:60%;
+  	height:26em;
   }
   .section-B {
-    height:55em;
-    margin-bottom:3em;
+    height:42em;
   }
-  .features {
-  	width:70%;
-  	margin: 0 auto;
+  .column-1 {
+    margin-top:2em;
+    height:6em;
+  }
+  .product {
   	height:52em;
+    width:60%;
   }
-  .learning-fixed {
+  .bulletoffer {
   	width:70%;
-  	margin:0 auto;
+    height:18em;
   }
-  .playlist-section {
-  	width:100%;
-  	margin: 0 auto;
-  	height:39em;
-  	text-align: center;
-  	background:#eff0f2;
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 4em;
+    opacity: 0;
+    text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    padding-top: 2.3em;
+    top: 0;
+    color:white;
   }
-  .slider {
-    transform: scale(1,1);
-  }
-  .more-title h2 {
-    margin-bottom:1em;
+  .text {
+    max-width: 540px;
+    padding-top: 14em;
+    margin-left: 11.4em;
+    font-size:1.3em;
+    line-height: 1.6em;
+    text-align: left;
+    opacity: 0;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
+    color:white;
   }
 }
